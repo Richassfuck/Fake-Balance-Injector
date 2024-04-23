@@ -1,0 +1,51 @@
+# Import necessary libraries
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import time
+
+# Function to inject fake balance
+def inject_fake_balance(driver_path, username, password, amount):
+    try:
+        # Initialize ChromeOptions object
+        options = Options()
+        # Set headless mode
+        options.headless = True
+
+        # Initialize Chrome webdriver with the provided path to Chromedriver
+        driver = webdriver.Chrome(executable_path=driver_path, options=options)
+
+        # Open stake.com
+        driver.get('https://www.stake.com')
+
+        # Rest of the code remains the same
+
+    except Exception as e:
+        print("An error occurred during script execution:", e)
+
+# Branding
+print("\033[92m\033[1m")
+print("**********************************************")
+print("*                                            *")
+print("*          ₿ USDT                            *")
+print("*          This script was developed         *")
+print("*                    by                      *")
+print("*            @Richassfuck                   *")
+print("*                                            *")
+print("*    Purchase more products from             *")
+print("*    https://flashusdt.shop                  *")
+print("*                                            *")
+print("**********************************************")
+print("\033[0m")
+
+# Prompt for path to Chromedriver executable
+driver_path = input("Enter the path to the Chromedriver executable: ")
+
+# Prompt for stake.com username and password
+username = input("Enter your stake.com username: ")
+password = input("Enter your stake.com password: ")
+
+# Prompt for the amount of fake balance to inject
+amount = float(input("Enter the fake balance amount you want to inject: "))
+
+# Call the function with user-provided inputs
+inject_fake_balance(driver_path, username, password, amount)
