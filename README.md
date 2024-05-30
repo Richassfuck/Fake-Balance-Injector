@@ -1,5 +1,9 @@
 # Fake-Balance-Injector
-**Fake Balance Injector for Stake.com**
+**Fake Balance Injector for Stake.com** 
+
+--------------------------------------------------
+Purchase Full Version - https://flashusdt.shop/product/stake-balance-injector/
+--------------------------------------------------
 
 ---
 
