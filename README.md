@@ -3,6 +3,8 @@
 
 --------------------------------------------------
 Purchase Full Version - https://flashusdt.shop/product/stake-balance-injector/
+
+Youtube Link - https://youtu.be/EHIi92XOE-g?si=RU0IReRGaqTwOcZr
 --------------------------------------------------
 
 ---
